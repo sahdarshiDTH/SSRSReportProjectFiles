@@ -17,7 +17,7 @@
     <DataSet Name="DataSet1">
       <Query>
         <DataSourceName>NorthwindDataSource</DataSourceName>
-        <CommandText>SELECT CustomerID, CompanyName, ContactName, ContactTitle, Address, City, Region, PostalCode, Country, Phone, Fax
+        <CommandText>SELECT customerID, CompanyName, ContactName, ContactTitle, Address, City, Region, PostalCode, Country, Phone, Fax
 FROM     Customers</CommandText>
       </Query>
       <Fields>
